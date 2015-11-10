@@ -1,2 +1,2 @@
 # Prata-exercises
-Learning C++ with Prata's book
+Learning C++ with Prata's book.
