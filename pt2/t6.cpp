@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-double light_to_units(float);
+double light_to_units(float light_years);
 
 int main()
 {
