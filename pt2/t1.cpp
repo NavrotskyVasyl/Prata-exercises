@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     string name = "Bob";
-	string address = "Time square";
+    string address = "Time square";
 	
 	cout << "Your name is " 
 		 << name 
