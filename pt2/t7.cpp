@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void show_time(int, int);
+void show_time(int hrs, int mins);
 
 int main()
 {
