@@ -1,5 +1,6 @@
 #include <iostream>
 
+const int to_percent = 100;
 using namespace std;
 
 int main()
@@ -12,7 +13,7 @@ int main()
     cout << "Enter the population of you country: ";
     cin >> country_population;
     cout << "The population of your country is "
-         << (long double) country_population / (long double) world_population * 100
+         << (()long double) country_population / (long double) world_population) * to_percent;
          << "% of the world population.";
 
     return 0;
