@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-double light_to_units(float light_years);
+const int light_to_units = 63240; 
+double  convert_light_to_units (float light_years);
 
 int main()
 {
@@ -12,7 +13,9 @@ int main()
             light_to_units(light_years) << " astronomical units.";
 }
 
-double light_to_units(float light_years)
+
+
+double convert_light_to_units(float light_years)
 {
-    return light_years * 63240;
+    return light_years * light_to_units;
 }
