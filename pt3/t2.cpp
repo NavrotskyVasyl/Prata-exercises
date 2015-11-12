@@ -6,7 +6,7 @@ using namespace std;
 const int inch_to_foot = 12;
 const float inch_to_meter = 0.0254;
 const float pnd_to_kg = 2.2;
-const int rnd = 10.;
+const int rnd = 10;
 
 double count_bmi(int height_foot, int height_inch, float weight_pnd);
 
