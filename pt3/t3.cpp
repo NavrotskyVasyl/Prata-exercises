@@ -5,7 +5,7 @@ using namespace std;
 const float mins_per_hr = 60;
 const float secs_per_hr = 3600;
 
-double convert_to_degrees(int degrees, int minutes, int seconds);
+float convert_to_degrees(int degrees, int minutes, int seconds);
 
 int main()
 {
@@ -27,7 +27,7 @@ int main()
     return 0;
 }
 
-double convert_to_degrees(int degrees, int minutes, int seconds)
+float convert_to_degrees(int degrees, int minutes, int seconds)
 {
     return degrees + (minutes / mins_per_hr) + (seconds / secs_per_hr);
 }
