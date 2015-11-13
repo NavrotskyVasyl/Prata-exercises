@@ -14,9 +14,8 @@ int main()
     cin >> consumption;
 
     cout << "Fuel consumption is "
-         << consumption / dist * hundred_km
+         << (consumption / dist) * hundred_km
          << " for 100 km";
 
     return 0;
 }
-
